@@ -71,6 +71,4 @@ For running tests run
 ```
 
 
-
-
-P.S. Postman collection is in the root folder
+P.S. Postman collection is in the root folder. Pay attention at the base_url variable of the collection
