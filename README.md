@@ -69,3 +69,8 @@ For running tests run
 ```bash
   php artisan test
 ```
+
+
+
+
+P.S. Postman collection is in the root folder
