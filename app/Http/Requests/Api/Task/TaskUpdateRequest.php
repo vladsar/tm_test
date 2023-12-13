@@ -26,7 +26,7 @@ class TaskUpdateRequest extends FormRequest
         return [
             'title'        => 'sometimes|string|max:255',
             'description'  => 'sometimes|string|max:65535',
-            'is_completed' => 'required|boolean',
+            'is_completed' => 'sometimes|boolean',
         ];
     }
 }

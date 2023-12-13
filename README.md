@@ -61,3 +61,11 @@ in the .env file
   php artisan serve
 ```
 and follow the given link
+
+
+## Tests
+
+For running tests run
+```bash
+  php artisan test
+```
