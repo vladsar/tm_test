@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "http://127.0.0.1:8000/api/tasks",
+			"name": "{{api_base_url}}/tasks",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -24,7 +24,7 @@
 			"response": []
 		},
 		{
-			"name": "http://127.0.0.1:8000/api/tasks",
+			"name": "{{api_base_url}}/tasks",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -62,7 +62,7 @@
 			"response": []
 		},
 		{
-			"name": "http://127.0.0.1:8000/api/tasks",
+			"name": "{{api_base_url}}/tasks",
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -107,7 +107,7 @@
 			"response": []
 		},
 		{
-			"name": "http://127.0.0.1:8000/api/tasks",
+			"name": "{{api_base_url}}/tasks",
 			"request": {
 				"method": "DELETE",
 				"header": [
@@ -137,12 +137,8 @@
 	],
 	"variable": [
 		{
-			"key": "base_url",
-			"value": "http://127.0.0.1:8000"
-		},
-		{
 			"key": "api_base_url",
-			"value": "http://127.0.0.1:8000/api"
+            "value": "http://127.0.0.1:8000/api"
 		}
 	]
 }
